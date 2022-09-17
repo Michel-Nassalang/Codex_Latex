@@ -1,0 +1,67 @@
+\documentclass[]{beamer}
+
+%\userpackage[latin1]{inputenc}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{xcolor,colortbl,array,graphicx}
+\usepackage{times}
+\usepackage{amsthm,amsmath,amsfonts,amssymb,amstext}
+\usepackage{lipsum}
+\usepackage{hyperref,url}
+
+\title[Etudes informatiques]{On the complexity of SNP Block Partitioning Under the Perfect Phylogeny Model}
+% ----------------------
+\author{Jens Gramm \inst{1} \and Tzvika Hartman \inst{2} \and Till Nierhoff \inst{3} 
+\and  \\  
+ roded sharan \inst{4}
+ \and  {\color{green} Till Tantau} \inst{5} }
+% ----------------------
+\institute[UT-BIU-IB-TA-UZL]{
+\inst{1}%
+Universitat Tubingen, Germany  \and \inst{2}%
+Bar-Ilan University, Ramat-Gan, Israel
+ \and \inst{3}%
+ International Computer Science Institute, Berkeley, USA 
+ \and 
+ \inst{4}%
+ Tel-Aviv University, Israel  \and 
+ \inst{5}%
+ Universitat zu Lubeck, Germany}
+% ----------------------
+\date{Workshopon Algorithms in Bioinformatics, 2006}
+\logo{\includegraphics[height=10mm]{king.png}}
+% ----------------------
+\mode <presentation> {
+\usetheme{Darmstadt}
+%{Bergen}{PaloAlto}{Berkeley}{Boadilla}{Pittsburgh}{Rochester}
+%{Antibes}{Montpellier}{JuanLesPins}{Berkeley}
+\usecolortheme{whale}
+%{whale} {orchid}{owl}{albatross}{beaver}
+\usefonttheme{professionalfonts}
+%{professionalfonts} {serif}{structurebold}
+%{structureitalicserif}{structuresmallcapsserif}
+%\useoutertheme{infolines}
+%{infolines} {miniframes}{shadow}{sidebar}
+%{smoothbars}{smoothtree}{split}{tree}
+\useinnertheme{rounded}
+%{circles}{rounded}{rectangles}{inmargin}
+\setbeamercovered{transparent=50}
+}
+\AtBeginSection[]
+{
+\begin{frame}
+<beamer>
+\frametitle{\sc Outline}
+\tableofcontents[currentsection,currentsubsection]
+
+\end{frame}
+}
+\begin{document}
+\begin{frame} 
+		\titlepage
+	\end{frame}
+\end{document}
+
+
+

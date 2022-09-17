@@ -1,0 +1,20 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\frenchbsetup{StandardLists=true} % à inclure si on utilise \usepackage[french]{babel}
+\usepackage{enumitem}
+\begin{document}
+Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla Blabla
+Blabla Blabla Blabla Blabla Blabla
+\begin{enumerate}[label=\Alph*)]
+\item premier item;
+\item deuxième item;
+\begin{enumerate}[label=\arabic*.]
+\item premier sous-item
+\item deuxième sous-item
+\end{enumerate}
+\item troisième item.
+\end{enumerate}
+Blabla Blabla Blabla Blabla Blabla
+\end{document}

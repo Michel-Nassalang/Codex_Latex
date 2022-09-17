@@ -1,0 +1,10 @@
+\babel@toc {french}{}
+\beamer@sectionintoc {1}{Arduino}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Définition}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Types d'Arduino}{4}{0}{1}
+\beamer@sectionintoc {2}{Matériels nécessaires pour l'Arduino}{5}{0}{2}
+\beamer@subsectionintoc {2}{1}{Capteurs}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Câblage}{7}{0}{2}
+\beamer@sectionintoc {3}{Projets et réalisation avec Arduino}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Tests et utilisations des matériels du kit arduino}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Projets réalisables}{12}{0}{3}

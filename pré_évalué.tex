@@ -1,0 +1,131 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[dvipsnames,svgnames]{xcolor}
+\usepackage{hyperref}
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{marvosym}
+\title{Initiation au logiciel latex}
+\author{Michel Nassalang}
+\date{11 mars 2020}
+\begin{document}
+\maketitle
+\tableofcontents
+\newpage
+\section{Faux texte A}
+%figure commentaire
+{\color{blue!20!red} \bf \lipsum[5]}
+\section{Faux texte B}
+\lipsum[1]
+\section{Faux texte C}
+\textsf{\lipsum[7]}
+\section{Faux texte D}
+\lipsum[8]
+\section{Faux texte E}
+\subsection{Texte 1}
+\lipsum[10]
+\subsection{Texte 2}
+\lipsum[11]
+\section*{Faux texte F}
+\lipsum[4]
+\vspace{2 cm}
+Un texte simple fera l'entrée en matière de notre {\color{blue!20!red} \bf cours qui se fait en classe } .
+
+Il n'est pas \hspace{1 cm} important si\hspace{1 cm} on met un ou plusieurs espaces
+
+$\sqrt{2}$ %vfill pour espacer formellement sur la verticale
+$$\int_a^b f(x)dx $$
+Modou \hfill Diagne \hfill Fada
+
+\symbol{92}
+
+$$ A=\{ x \in \mathbb{R} \} $$
+
+$$ f^-1(B)=\{x \in E , f(x) \in B \} $$
+\begin{itemize}
+\item pain
+\item lait
+\item farine
+\end{itemize}
+\begin{enumerate}
+\item [$\square $]faire ruisseler l'oignon et le beurre,
+\item ajouter du citron et le riz et laisser évaporer,
+\item ajouter le bouillons peu à peu ,
+\item\dots
+\end{enumerate}
+\begin{itemize}
+\item A faire:
+\begin{enumerate}
+\item Sortir le chien\item Rentrer les poubelles
+\end{enumerate}
+\item Ce qui sera fait:
+\begin{enumerate}
+\item Apprendre les leçons
+\item Dormir
+\end{enumerate}
+\end{itemize}
+\newpage
+\begin{enumerate}
+\item aaa
+\begin{enumerate}
+\item[a] bbb
+\begin{enumerate}
+\item ccc
+\item ddd
+\item eee
+\end{enumerate}
+\item bb
+\end{enumerate}
+\item ggg
+\begin{enumerate}
+\item hhh
+\item  iii
+\item  jjj
+\item  kkk
+\item  lll
+\end{enumerate}
+\item mmmm
+\item nnn
+\item AAA:ooo
+\item BBB:ppp
+\end{enumerate}
+\begin{tabular}{|c|p{2cm}|r|}
+\hline
+titi toto & tutu tata  & tete\\
+\hline
+titi toto & toto tata  & tete\\
+\hline
+\end{tabular}
+ 
+
+\begin{tabular}{|c|p{2cm}|r|}
+\hline
+ AAA & BBB & CCC\\
+\hline
+D & EE & FFF\\
+\hline
+ GGG & H & II\\
+ \hline
+\end{tabular}
+\newpage
+\begin{minipage}[t]{0.5\textwidth}
+{\bfseries \small M. Jules A. B Diao}\\[.45ex]
+{\small Étudiant en classe préparatoire 1}\\
+{\small Institut Polytechnique de Saint Louis (IPSL)}\\
+{\small Université Gaston Berger (UGB)}\\
+{\small BP 234 - Saint Louis}\\[.45ex]
+\Telefon- +221 78 165 02 61\\% avec \usepackage{marvosym}
+\Letter- jules.diao@ugb.edu.sn\\
+\end{minipage} \hspace{0.2cm}
+\begin{minipage}[t]{0.5\textwidth}
+\includegraphics[height=4cm,width=4cm]{king.png}
+\lipsum[1]
+\lipsum[2]
+\end{minipage}
+
+\end{document}

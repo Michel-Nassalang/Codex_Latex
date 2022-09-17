@@ -1,0 +1,32 @@
+\documentclass{beamer}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+
+\usetheme{Warsaw}
+
+\title{Faire une présentation en LaTeX avec Beamer}
+\author{Spader}
+\institute{www.siteduzero.com}
+\date{09 avril 2012}
+\logo{\includegraphics[height=5mm]{king.png}}
+
+\AtBeginSection[]
+{
+  \begin{frame}
+  \frametitle{Sommaire}
+  \tableofcontents[currentsection, hideothersubsections, pausesubsections]
+  \end{frame} 
+}
+\setbeamersize{text margin left=1cm, text margin right=1cm}
+
+\begin{document}
+
+\begin{frame}
+\titlepage
+\end{frame}
+\section{Début}
+\subsection{Préface}
+
+\end{document}

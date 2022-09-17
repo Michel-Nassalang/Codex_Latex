@@ -1,0 +1,8 @@
+\babel@toc {french}{}
+\contentsline {section}{\numberline {1}Faux texte A}{2}{section.1}%
+\contentsline {section}{\numberline {2}Faux texte B}{2}{section.2}%
+\contentsline {section}{\numberline {3}Faux texte C}{2}{section.3}%
+\contentsline {section}{\numberline {4}Faux texte D}{3}{section.4}%
+\contentsline {section}{\numberline {5}Faux texte E}{3}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Texte 1}{3}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Texte 2}{3}{subsection.5.2}%

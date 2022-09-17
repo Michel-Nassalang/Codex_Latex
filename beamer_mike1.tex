@@ -1,0 +1,62 @@
+\documentclass[t]{beamer}
+%[t][b][c]
+\usepackage[frenchb]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+\usepackage{lipsum}
+\usetheme{Warsaw}%pour afficher le bas en couleur
+
+
+\begin{document}
+
+	\begin{frame}
+	Voici votre première page de présentation en LaTeX !
+	\end{frame}
+	
+	\begin{frame}[fragile]
+	\frametitle{Un exemple de titre}
+	\framesubtitle{avec un exemple de sous-titre}
+	Enfin, le texte ! :)\\
+	\lipsum[8]
+	\end{frame}
+	
+	\begin{frame}[label=pagebanale]
+	\frametitle{Un exemple de titre}
+	\framesubtitle{avec un exemple de sous-titre}
+	Enfin, le texte ! :)
+	\end{frame}
+
+\begin{frame}[fragile]
+
+\begin{center}
+Texte non fragilisé, la \textbf{preuve}
+\end{center}
+
+\begin{verbatim}
+Pour afficher cette page, j'ai utilisé ce code :
+\begin{frame}[fragile] 
+
+Suivi de l'environnement verbatim :
+\begin{verbatim}
+\end{verbatim}
+
+\end{frame}
+
+\begin{frame}
+{Formule}{Integrales}
+\begin{semiverbatim}
+Une formule mathématique : $\int_a^b{f(x).\text{d}x} = A$.
+\end{semiverbatim}
+
+\end{frame}
+\begin{frame}[plain]
+Page sans en-tête ni pied de page.
+\end{frame}
+
+\begin{frame}[plain]
+\frametitle{Ajout de la tête de page}
+
+Page avec en-tête mais sans pied de page.
+\end{frame}
+
+\end{document}

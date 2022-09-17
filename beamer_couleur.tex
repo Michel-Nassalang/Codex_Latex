@@ -1,0 +1,41 @@
+\documentclass{beamer}
+
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[latin1]{inputenc}
+
+\usetheme{Warsaw}
+
+\hypersetup{pdfpagemode=FullScreen}
+
+\colorlet{titre}{yellow}
+\definecolor{vertmoyen}{RGB}{51,110,23}
+\definecolor{rouge}{HTML}{DD0000}
+
+
+\begin{document}
+\setbeamertemplate{background canvas}{\includegraphics[width=\paperwidth,height=\paperheight]{eclat.png}} % Width pour la largeur, height pour la hauteur de l'image
+
+% \setbeamercolor{background canvas}{bg=yellow!10!white}
+%permet d'amener une couleur en background
+\begin{frame}
+\frametitle{\textcolor{titre}{Exemple d'utilisation d'une couleur}}
+\framesubtitle{Remarquez que mon titre est en jaune}
+
+
+Texte n'ayant pas encore subi de changement de couleur.\\
+
+\color{blue}
+
+\textcolor{vertmoyen}{Ce texte sera en vert !\\}
+\textcolor{rouge}{Celui là en rouge\\}
+	
+Mais celui là en bleu !
+	
+\begin{center}
+\colorbox{teal}{\textcolor[HTML]{FFFFFF}{Ah et voici un texte surligné. :D}}
+\end{center}
+
+\end{frame}
+
+\end{document}
